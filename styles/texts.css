@@ -1,0 +1,115 @@
+.tx-1{
+    font-family: var(--font-family-2);
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-4);
+    color: var(--color-white);
+}
+
+.tx-2{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-1);
+    color: var(--color-black);
+}
+
+.tx-3{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    color: var(--color-black);
+}
+
+.tx-4{
+    font-family: var(--font-family-2);
+    font-size: 2rem;
+    font-weight: var(--font-weight-1);
+    color: var(--color-black);
+}
+
+.tx-5{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    color: var(--color-black);
+}
+
+.tx-6{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-4);
+    color: var(--color-black);
+}
+
+.tx-7{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    color: var(--color-black);
+}
+
+.tx-8{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    color: var(--color-white);
+}
+
+.tx-9{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-1);
+    color: var(--color-black);
+}
+
+.tx-10{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    color: var(--color-black);
+}
+
+.alert{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    color: var(--color-red);
+    animation: alert 1s ease-in;
+    
+}
+
+@keyframes alert{
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+.span-sector{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    color: var(--color-blue);
+
+    border: 1px solid var(--color-blue);
+    border-radius: 255px;
+
+    width: fit-content;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+
+}
+
+.tx-align{
+    text-align: center;
+}
+
+.fs-1{
+    font-size: var(--font-size-3);
+}
+
+.lh-1{
+    line-height: 150%;
+}
+
+.blue{
+    color: var(--color-blue);
+}

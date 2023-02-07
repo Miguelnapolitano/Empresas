@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/displays.css">
+    <link rel="stylesheet" href="../../styles/modal.css">
+    <link rel="stylesheet" href="../../styles/inputs.css">
+    <link rel="stylesheet" href="../../styles/toastfy.css">
+
+    <title>Kenzie empresas - Home</title>
+
+</head>
+<body>
+    <nav id="nav" class="container pd-1">
+        <div class="desktop fx ai-c jc-sb">
+            <img class="pl-1" src="../../assets/logo.png" alt="">
+            <button id="logout" class="btt-white">Logout</button>
+        </div>        
+    </nav>
+
+    <h3 class="tx-5  mg-top-1 desktop">Departamentos</h3>
+    <section class="desktop fx cl ai-c gap-1 bgc-grey pd-1 h-3">
+        <div class="fx jc-sb w-100">
+            <select class="companies" placeholder="Selecionar">
+                <option value="Todas as empresas">Todas as empresas</option>
+            </select>
+            <button id="create" class="btt-blue"><b class="tx-1 fs-1">+</b>Criar</button>
+        </div>
+
+        <ul class="dep-list ls-none fx jc-c wrap w-100">
+
+        </ul>
+    </section>
+
+    <h3 class="tx-5  mg-top-1 desktop">Usuários cadastrados</h3>
+    <section class="desktop fx cl gap-1 bgc-grey pd-1 h-3">
+        
+        
+        <ul class="users-list ls-none fx jc-c wrap w-100">
+            
+        </ul>
+    </section>
+     
+<script type="module" src="./index.js"></script>
+</body>
+</html>
+

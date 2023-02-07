@@ -1,0 +1,23 @@
+.bgc-blue{
+    background-color: var(--color-blue);
+}
+
+.bgc-green{
+    background-color: var(--color-green);
+}
+
+.bgc-red{
+    background-color: var(--color-red);
+}
+
+.bgc-grey{
+    background-color: var(--color-grey);
+}
+
+.bgc-white{
+    background-color: var(--color-white);
+}
+
+.opct{
+    opacity: 0.9;
+}

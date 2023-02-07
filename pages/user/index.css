@@ -1,0 +1,28 @@
+nav {
+    box-shadow: var(--box-shadow);
+}
+
+#edit{
+    cursor: pointer;
+}
+
+section{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+main{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+li {
+    border: 1px solid var(--color-blue);
+}

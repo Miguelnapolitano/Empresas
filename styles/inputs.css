@@ -1,0 +1,62 @@
+.input-1{
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    color: var(--color-black);
+
+    padding: 1rem;
+}
+
+.input-1::placeholder{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.input-2{
+    width: 100%;
+    height: 3.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    color: var(--color-black);
+
+    padding: 1rem;
+}
+
+.input-2::placeholder{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.input-3{
+    width: 100%;
+    height: 10rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    color: var(--color-black);
+
+    padding: 1rem;
+}
+
+.input-3::placeholder{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+    color: rgba(0, 0, 0, 0.3);
+
+    align-self: flex-start;
+    justify-self: flex-start;
+}

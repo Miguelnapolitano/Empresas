@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/displays.css">
+    <link rel="stylesheet" href="../../styles/inputs.css">
+    <link rel="stylesheet" href="../../styles/toastfy.css">
+
+    <title>Kenzie empresas - Login</title>
+
+</head>
+<body>
+    <nav class="container fx ai-c jc-sb pd-1">
+        <img class="pl-1" src="../../assets/logo.png" alt="">
+        <img id="drop-btt" class="pointer" src="../../assets/drop-down.png" alt="">
+        <div class="div-btt fx gap-1">
+            <button id="home" class="btt-white">Home</button>
+            <button id="register" class="btt-blue">Cadastro</button>
+        </div>
+    </nav>
+
+    <div class="drop-down fx cl jc-sa bgc-white">
+        <div class="fx ai-c jc-sb">
+            <img class="pl-1" src="../../assets/logo.png" alt="">
+            <button class="btt-close">X</button>
+        </div>
+        <div id="div-window-btt" class="fx ai-c jc-sa">
+            <button id="home" class="btt-white">Home</button>
+            <button id="register" class="btt-blue">Cadastro</button>
+        </div>
+    </div>
+
+    <main class="fx cl ai-c jc-c">
+        <img src="../../assets/background-1.png" alt="">
+
+        <section id="suport-div" class="w-100 bgc-op bgc-white opct fx ai-fe jc-c "></section>
+
+        <div class="suport fx cl gap-1 mg-auto">
+            <h2 class="tx-4">Login</h2>
+            <span class="tx-3">Preencha dos campos para realizar login</span>
+            <form class="fx jc-c ai-c cl gap-2">
+                <input class="input-1" type="email" placeholder="Seu e-mail">
+                <input class="input-1" type="password" placeholder="Sua senha">
+                <button id="register-go" class="btt-blue w-100 not" disabled>Login</button>
+            </form>
+            <span class="tx-3 w-100 tx-align">ou</span>
+            <button id="goto" class="btt-white w-100">Cadastre-se</button>
+        </div>
+    </main>
+<script type="module" src="./index.js"></script>   
+</body>
+</html>
